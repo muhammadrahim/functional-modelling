@@ -1,0 +1,16 @@
+EXCLUDE_QUERY_DIR
+B /Users/muhammadrahim/.opam/4.10.0/lib/base
+B /Users/muhammadrahim/.opam/4.10.0/lib/base/base_internalhash_types
+B /Users/muhammadrahim/.opam/4.10.0/lib/base/caml
+B /Users/muhammadrahim/.opam/4.10.0/lib/base/shadow_stdlib
+B /Users/muhammadrahim/.opam/4.10.0/lib/sexplib0
+B /Users/muhammadrahim/.opam/4.10.0/lib/stdio
+B _build/default/.types.eobjs/byte
+S /Users/muhammadrahim/.opam/4.10.0/lib/base
+S /Users/muhammadrahim/.opam/4.10.0/lib/base/base_internalhash_types
+S /Users/muhammadrahim/.opam/4.10.0/lib/base/caml
+S /Users/muhammadrahim/.opam/4.10.0/lib/base/shadow_stdlib
+S /Users/muhammadrahim/.opam/4.10.0/lib/sexplib0
+S /Users/muhammadrahim/.opam/4.10.0/lib/stdio
+S .
+FLG -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs
