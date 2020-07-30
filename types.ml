@@ -1,5 +1,3 @@
-open Async
-
 type product_code = ProductCode of string
 type person = { first: string; last: string }
 type check_number = CheckNumber of int
@@ -62,8 +60,8 @@ type order_quantity =
 type unvalidated_order = undefined
 type validated_order = undefined
 type validation_error = { field_name: string; error_description: string }
-type validate_order = unvalidated_order -> ((validated_order, validation_error list) result) async
-
+type ('a) validation_response = (validated_order, validation_error list) result
+type validate_order = unvalidated_order -> (validated_order) validation_response
 type acknowledgement_sent = undefined
 type order_placed = undefined
 type billable_order_placed = undefined
