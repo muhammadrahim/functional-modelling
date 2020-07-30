@@ -82,3 +82,12 @@ type categorize_inbound_mail = envelope_contents -> categorized_mail
 type product_catalog = undefined
 type priced_order = undefined
 type calculate_prices = order_form -> product_catalog -> priced_order
+
+type contact_id = ContactId of int
+type phone_number = undefined
+type email_address = undefined
+type contact = {
+  contact_id : contact_id;
+  phone_number : phone_number;
+  email_address : email_address
+}
